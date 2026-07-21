@@ -1,9 +1,11 @@
 package studio.lrxmc.trfp.lua;
 
+import org.luaj.vm2.Globals;
 import org.luaj.vm2.LuaValue;
 import org.luaj.vm2.lib.jse.JsePlatform;
 import studio.lrxmc.trfp.TRfPPlugin;
 
+import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -22,7 +24,7 @@ public class LuaEngine {
 
     private final TRfPPlugin plugin;
     private final Map<String, LuaValue> gunScripts = new HashMap<>();
-    private final AtomicReference<LuaValue> global = new AtomicReference<>();
+    private final AtomicReference<Globals> global = new AtomicReference<>();
 
     public LuaEngine(TRfPPlugin plugin) {
         this.plugin = plugin;
@@ -31,7 +33,7 @@ public class LuaEngine {
     public void loadAll() {
         gunScripts.clear();
         // 初始化全局环境
-        LuaValue g = JsePlatform.standardGlobals();
+        Globals g = JsePlatform.standardGlobals();
         g.set("trfp", LuaValue.tableOf());
         g.get("trfp").set("version", LuaValue.valueOf("1.0.0"));
         g.get("trfp").set("author", LuaValue.valueOf("Lrxmcstudio.工作室的Lrx"));
@@ -44,7 +46,7 @@ public class LuaEngine {
                 if (!name.endsWith(".lua")) continue;
                 try (InputStream in = plugin.getResource(name)) {
                     if (in == null) continue;
-                    LuaValue chunk = g.load(new InputStreamReader(in, StandardCharsets.UTF_8), name);
+                    LuaValue chunk = g.load(new java.io.ByteArrayInputStream(readAllBytes(in)), name, "t", g);
                     chunk.call();
                     String gunId = name.substring(name.lastIndexOf('/') + 1, name.length() - 4);
                     gunScripts.put(gunId.toLowerCase(Locale.ROOT), g);
@@ -71,7 +73,7 @@ public class LuaEngine {
 
     public void call(String gunId, String hook, Object... args) {
         if (!plugin.getConfigManager().isEnableLua()) return;
-        LuaValue g = global.get();
+        Globals g = global.get();
         if (g == null) return;
         String key = gunId == null ? "" : gunId.toLowerCase(Locale.ROOT);
         LuaValue env = gunScripts.get(key);
@@ -95,6 +97,14 @@ public class LuaEngine {
         if (o instanceof Number n) return LuaValue.valueOf(n.doubleValue());
         if (o instanceof Boolean b) return LuaValue.valueOf(b);
         return LuaValue.valueOf(o.toString());
+    }
+
+    private static byte[] readAllBytes(InputStream in) throws java.io.IOException {
+        java.io.ByteArrayOutputStream buf = new java.io.ByteArrayOutputStream();
+        byte[] tmp = new byte[4096];
+        int n;
+        while ((n = in.read(tmp)) > 0) buf.write(tmp, 0, n);
+        return buf.toByteArray();
     }
 
     private String[] listJar(String prefix) {

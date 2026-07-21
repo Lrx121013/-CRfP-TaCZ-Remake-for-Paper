@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.stock_ripstock.name",
+  "display": "trfp:stock_ripstock_display",
+  "data": "trfp:stock_ripstock_data",
+  "type": "stock",
+  "sort": 10
+}

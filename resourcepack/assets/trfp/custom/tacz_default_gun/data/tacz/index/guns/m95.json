@@ -1,0 +1,8 @@
+{
+  "name": "tacz.gun.m95.name",
+  "display": "trfp:m95_display",
+  "data": "trfp:m95_data",
+  "tooltip": "tacz.gun.m95.desc",
+  "type": "sniper",
+  "sort": 2
+}

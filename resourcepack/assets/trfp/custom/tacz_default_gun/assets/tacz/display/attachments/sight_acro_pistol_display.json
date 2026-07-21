@@ -1,0 +1,19 @@
+{
+  "slot": "trfp:attachment/slot/sight_acro_pistol",
+  "model": "trfp:attachment/sight_acro_pistol_geo",
+  "texture": "trfp:attachment/uv/sight_acro_pistol",
+  "lod": {
+    "model": "trfp:attachment/lod/sight_acro_pistol",
+    "texture": "trfp:attachment/lod/sight_acro_pistol"
+  },
+  "zoom": [
+    2
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 40.0,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_c",
+    "uninstall": "trfp:attachments/scope_general_c"
+  }
+}

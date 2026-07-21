@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.grip_cqr",
+  "display": "trfp:grip_cqr_display",
+  "data": "trfp:grip_cqr_data",
+  "type": "grip",
+  "hidden": true
+}

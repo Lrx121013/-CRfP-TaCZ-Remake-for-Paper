@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trfp:hk_mp5a5"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

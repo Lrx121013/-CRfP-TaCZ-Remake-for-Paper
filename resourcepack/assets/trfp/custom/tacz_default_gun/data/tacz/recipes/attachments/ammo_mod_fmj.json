@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trfp:ammo_mod_fmj"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

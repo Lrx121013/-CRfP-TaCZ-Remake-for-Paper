@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/grip_rk1_b25u",
+  "model": "trfp:attachment/grip_rk1_b25u",
+  "texture": "trfp:attachment/uv/grip_rk1_b25u",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_b",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

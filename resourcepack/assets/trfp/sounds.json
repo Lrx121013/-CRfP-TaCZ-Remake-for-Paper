@@ -1,0 +1,22 @@
+{
+  "gun": {
+    "subtitle": "subtitle.tacz.gun",
+    "sounds": [
+      {
+        "name": "trfp:gun/empty"
+      }
+    ]
+  },
+  "target_block_hit": {
+    "subtitle": "subtitle.tacz.target_block_hit",
+    "sounds": [
+      "trfp:block/target_block_hit/target_block_hit_1",
+      "trfp:block/target_block_hit/target_block_hit_2",
+      "trfp:block/target_block_hit/target_block_hit_3",
+      "trfp:block/target_block_hit/target_block_hit_4",
+      "trfp:block/target_block_hit/target_block_hit_5",
+      "trfp:block/target_block_hit/target_block_hit_6",
+      "trfp:block/target_block_hit/target_block_hit_7"
+    ]
+  }
+}

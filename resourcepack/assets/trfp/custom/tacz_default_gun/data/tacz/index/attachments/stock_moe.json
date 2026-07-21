@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.stock_moe.name",
+  "display": "trfp:stock_moe_display",
+  "data": "trfp:stock_moe_data",
+  "type": "stock",
+  "sort": 10
+}

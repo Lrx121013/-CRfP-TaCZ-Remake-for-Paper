@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/grip_osovets_black",
+  "model": "trfp:attachment/grip_osovets_black",
+  "texture": "trfp:attachment/uv/grip_osovets_black",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_b",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

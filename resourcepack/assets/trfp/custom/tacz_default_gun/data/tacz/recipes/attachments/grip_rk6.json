@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trfp:grip_rk6"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

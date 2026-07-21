@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:ammo/slot/22wmr",
+  "shell": {
+    "model": "trfp:shell/22wmr_shell",
+    "texture": "trfp:shell/22wmr_shell"
+  },
+  "tracer_color": "#ffe09e"
+}
+    

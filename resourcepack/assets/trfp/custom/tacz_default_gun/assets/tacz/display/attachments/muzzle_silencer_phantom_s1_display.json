@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/muzzle_silencer_phantom_s1",
+  "model": "trfp:attachment/muzzle_silencer_phantom_s1_geo",
+  "texture": "trfp:attachment/uv/muzzle_silencer_phantom_s1",
+  "sounds": {
+    "install": "trfp:attachments/muzzle_general",
+    "uninstall": "trfp:attachments/muzzle_general"
+  }
+}

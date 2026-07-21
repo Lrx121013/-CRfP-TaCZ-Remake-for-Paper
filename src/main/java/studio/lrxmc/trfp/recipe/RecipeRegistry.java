@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.RecipeChoice;
 import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.ShapelessRecipe;
 import studio.lrxmc.trfp.TRfPPlugin;
@@ -37,14 +38,13 @@ public class RecipeRegistry {
     }
 
     private void registerGunRecipe(GunData gun) {
-        String id = "trfp:gun_" + gun.getId().toLowerCase(Locale.ROOT);
         NamespacedKey key = new NamespacedKey(plugin, "gun_" + gun.getId().toLowerCase(Locale.ROOT));
         ShapedRecipe recipe = new ShapedRecipe(key, plugin.getGunItemFactory().create(gun));
         recipe.shape("ISI", "IBI", "STS");
         recipe.setIngredient('I', Material.IRON_INGOT);
         recipe.setIngredient('S', Material.STICK);
-        recipe.setIngredient('T', ItemRegistry.keyOf("gun_part_trigger"));
-        recipe.setIngredient('B', ItemRegistry.keyOf("gun_part_barrel"));
+        recipe.setIngredient('T', new RecipeChoice.ExactChoice(plugin.getItemRegistry().get("gun_part_trigger")));
+        recipe.setIngredient('B', new RecipeChoice.ExactChoice(plugin.getItemRegistry().get("gun_part_barrel")));
         Bukkit.addRecipe(recipe);
     }
 
@@ -65,7 +65,7 @@ public class RecipeRegistry {
         out.setAmount(8);
         ShapelessRecipe recipe = new ShapelessRecipe(key, out);
         for (String m : matIds) {
-            recipe.addIngredient(ItemRegistry.keyOf(m));
+            recipe.addIngredient(new RecipeChoice.ExactChoice(plugin.getItemRegistry().get(m)));
         }
         Bukkit.addRecipe(recipe);
     }
@@ -82,20 +82,16 @@ public class RecipeRegistry {
         registerAttachmentShaped("barrel_compensator", "III", "ITI", "III");
     }
 
-    private void registerAttachmentShaped(String attachId, String shape1, String shape2) {
-        registerAttachmentShaped(attachId, new String[]{shape1, shape2});
-    }
-
-    private void registerAttachmentShaped(String attachId, String[] shape) {
+    private void registerAttachmentShaped(String attachId, String... shapeRows) {
         ItemStack out = plugin.getItemRegistry().get("attach_" + attachId);
         if (out == null) return;
         NamespacedKey key = new NamespacedKey(plugin, "attach_" + attachId);
         ShapedRecipe recipe = new ShapedRecipe(key, out);
-        recipe.shape(shape);
+        recipe.shape(shapeRows);
         recipe.setIngredient('I', Material.IRON_INGOT);
         recipe.setIngredient('S', Material.STICK);
         recipe.setIngredient('G', Material.GLASS_PANE);
-        recipe.setIngredient('T', ItemRegistry.keyOf("gun_part_trigger"));
+        recipe.setIngredient('T', new RecipeChoice.ExactChoice(plugin.getItemRegistry().get("gun_part_trigger")));
         Bukkit.addRecipe(recipe);
     }
 }

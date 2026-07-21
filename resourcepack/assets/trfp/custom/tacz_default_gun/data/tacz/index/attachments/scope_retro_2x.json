@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.scope_retro_2x.name",
+  "display": "trfp:scope_retro_2x_display",
+  "data": "trfp:scope_retro_2x_data",
+  "type": "scope",
+  "sort": 100
+}

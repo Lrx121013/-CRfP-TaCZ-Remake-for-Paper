@@ -1,0 +1,10 @@
+{
+  "slot": "trfp:attachment/slot/stock_ak12",
+  "model": "trfp:attachment/stock_ak12_geo",
+  "texture": "trfp:attachment/uv/stock_ak12",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

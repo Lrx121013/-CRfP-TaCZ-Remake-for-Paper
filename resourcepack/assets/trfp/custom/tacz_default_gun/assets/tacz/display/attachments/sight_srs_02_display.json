@@ -1,0 +1,19 @@
+{
+  "slot": "trfp:attachment/slot/sight_srs_02",
+  "model": "trfp:attachment/sight_srs_02_geo",
+  "texture": "trfp:attachment/uv/sight_srs_02",
+  "lod": {
+    "model": "trfp:attachment/lod/sight_srs_02",
+    "texture": "trfp:attachment/lod/sight_srs_02"
+  },
+  "zoom": [
+    1.5
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 40.0,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_c",
+    "uninstall": "trfp:attachments/scope_general_c"
+  }
+}

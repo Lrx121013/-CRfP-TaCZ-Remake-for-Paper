@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.stock_ak12.name",
+  "display": "trfp:stock_ak12_display",
+  "data": "trfp:stock_ak12_data",
+  "type": "stock",
+  "sort": 10
+}

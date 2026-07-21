@@ -1,0 +1,23 @@
+{
+  "slot": "trfp:attachment/slot/scope_contender_slot",
+  "model": "trfp:attachment/scope_contender_geo",
+  "texture": "trfp:attachment/uv/scope_contender",
+  "lod": {
+    "model": "trfp:attachment/lod/scope_contender",
+    "texture": "trfp:attachment/lod/scope_contender"
+  },
+  "zoom": [
+    4.25
+  ],
+  "views": [
+    2
+  ],
+  "views_fov": [
+    35
+  ],
+  "scope": true,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_d",
+    "uninstall": "trfp:attachments/scope_general_d"
+  }
+}

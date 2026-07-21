@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/muzzle_silencer_ptilopsis",
+  "model": "trfp:attachment/muzzle_silencer_ptilopsis_geo",
+  "texture": "trfp:attachment/uv/muzzle_silencer_ptilopsis",
+  "sounds": {
+    "install": "trfp:attachments/muzzle_general",
+    "uninstall": "trfp:attachments/muzzle_general"
+  }
+}

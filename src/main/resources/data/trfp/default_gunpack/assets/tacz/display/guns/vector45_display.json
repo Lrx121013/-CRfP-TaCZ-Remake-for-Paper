@@ -1,0 +1,52 @@
+{
+  "model": "trfp:gun/vector45_geo",
+  "texture": "trfp:gun/uv/vector45",
+  "lod": {
+    "model": "trfp:gun/lod/vector45",
+    "texture": "trfp:gun/lod/vector45"
+  },
+  "hud": "trfp:gun/hud/vector45",
+  "slot": "trfp:gun/slot/vector45",
+  "animation": "trfp:vector45",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "trfp:vector45_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "trfp:flash/common_muzzle_flash",
+    "scale": 0.6
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "trfp:victor45/vector_shoot",
+    "shoot_3p": "trfp:victor45/vector_shoot_3p",
+    "silence": "trfp:victor45/vector_silence",
+    "silence_3p": "trfp:victor45/vector_silence_3p",
+    "melee_push": "trfp:melee_stock/melee_stock_03",
+    "melee_stock": "trfp:melee_stock/melee_stock_01"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

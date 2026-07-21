@@ -1,0 +1,26 @@
+{
+  "slot": "trfp:attachment/slot/scope_elcan_4x",
+  "model": "trfp:attachment/scope_elcan_4x_geo",
+  "texture": "trfp:attachment/uv/scope_elcan_4x",
+  "lod": {
+    "model": "trfp:attachment/lod/scope_elcan_4x",
+    "texture": "trfp:attachment/lod/scope_elcan_4x"
+  },
+  "zoom": [
+    4.25,
+    1.25
+  ],
+  "views": [
+    2,
+    2
+  ],
+  "views_fov": [
+    40.0,
+    60.0
+  ],
+  "scope": true,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_d",
+    "uninstall": "trfp:attachments/scope_general_d"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.oem_stock_heavy.name",
+  "display": "trfp:oem_stock_heavy_display",
+  "data": "trfp:oem_stock_heavy_data",
+  "type": "stock",
+  "sort": 1
+}

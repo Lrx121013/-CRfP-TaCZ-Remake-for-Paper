@@ -1,0 +1,7 @@
+{
+  "slot": "trfp:ammo/slot/545x39",
+  "shell": {
+    "model": "trfp:shell/545x39_shell",
+    "texture": "trfp:shell/545x39_shell"
+  }
+}

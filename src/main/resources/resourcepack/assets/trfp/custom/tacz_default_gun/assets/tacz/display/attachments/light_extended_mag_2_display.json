@@ -1,0 +1,7 @@
+{
+  "slot": "trfp:attachment/slot/light_extended_mag_2",
+  "sounds": {
+    "install": "trfp:attachments/extended_mag_install",
+    "uninstall": "trfp:attachments/extended_mag_uninstall"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": "trfp:ammo/57x28",
+  "texture": "trfp:ammo/uv/57x28",
+  "slot": "trfp:ammo/slot/57x28",
+  "tracer_color": "#a4fff7",
+  "shell": {
+    "model": "trfp:shell/57x28_shell",
+    "texture": "trfp:shell/57x28_shell"
+  }
+}
+    

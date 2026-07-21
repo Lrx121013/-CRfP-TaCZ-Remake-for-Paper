@@ -1,0 +1,10 @@
+{
+  "slot": "trfp:attachment/slot/bayonet_6h3",
+  "model": "trfp:attachment/bayonet_6h3_geo",
+  "texture": "trfp:attachment/uv/bayonet_6h3",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "trfp:attachments/bayonet_install",
+    "uninstall": "trfp:attachments/bayonet_uninstall"
+  }
+}

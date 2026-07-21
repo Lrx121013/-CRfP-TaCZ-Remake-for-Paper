@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/stock_heavy_spas_12",
+  "model": "trfp:attachment/stock_heavy_spas_12_geo",
+  "texture": "trfp:attachment/uv/stock_heavy_spas_12",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

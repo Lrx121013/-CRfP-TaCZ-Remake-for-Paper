@@ -1,0 +1,11 @@
+{
+  "slot": "trfp:attachment/slot/grip_vertical_talon",
+  // 配件的默认模型，不可为空
+  "model": "trfp:attachment/grip_vertical_talon_geo",
+  // 配件默认模型使用的材质，不可为空
+  "texture": "trfp:attachment/uv/grip_vertical_talon",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_b",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

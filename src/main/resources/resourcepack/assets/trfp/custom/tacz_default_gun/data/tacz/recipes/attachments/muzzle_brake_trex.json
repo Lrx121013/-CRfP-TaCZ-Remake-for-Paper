@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trfp:muzzle_brake_trex"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

@@ -1,0 +1,29 @@
+{
+  "model": "trfp:ammo/9mm",
+  "texture": "trfp:ammo/uv/9mm",
+  "slot": "trfp:ammo/slot/9mm",
+  "shell": {
+    "model": "trfp:shell/9mm_shell",
+    "texture": "trfp:shell/9mm_shell"
+  },
+  "tracer_color": "#FF8888",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

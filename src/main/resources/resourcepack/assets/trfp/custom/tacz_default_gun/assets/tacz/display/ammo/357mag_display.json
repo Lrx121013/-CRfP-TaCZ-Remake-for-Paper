@@ -1,0 +1,11 @@
+{
+  "model": "trfp:ammo/357mag",
+  "texture": "trfp:ammo/uv/357mag",
+  "slot": "trfp:ammo/slot/357mag",
+  "shell": {
+    "model": "trfp:shell/357mag_shell",
+    "texture": "trfp:shell/357mag_shell"
+  },
+  "tracer_color": "#ffe09e"
+}
+    

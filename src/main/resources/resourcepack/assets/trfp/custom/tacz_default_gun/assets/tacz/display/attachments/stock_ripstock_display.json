@@ -1,0 +1,10 @@
+{
+  "slot": "trfp:attachment/slot/stock_ripstock",
+  "model": "trfp:attachment/stock_ripstock_geo",
+  "texture": "trfp:attachment/uv/stock_ripstock",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/muzzle_compensator_trident",
+  "model": "trfp:attachment/muzzle_compensator_trident_geo",
+  "texture": "trfp:attachment/uv/muzzle_compensator_trident",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

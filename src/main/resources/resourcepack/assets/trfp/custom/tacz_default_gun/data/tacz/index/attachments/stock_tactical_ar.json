@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.stock_tactical_ar.name",
+  "display": "trfp:stock_tactical_ar_display",
+  "data": "trfp:stock_tactical_ar_data",
+  "type": "stock",
+  "sort": 10
+}

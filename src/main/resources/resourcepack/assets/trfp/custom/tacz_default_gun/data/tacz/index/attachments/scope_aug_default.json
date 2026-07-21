@@ -1,0 +1,7 @@
+{
+  "hidden": true,
+  "name": "tacz.attachment.scope_aug_default.name",
+  "display": "trfp:scope_aug_default_display",
+  "data": "trfp:scope_aug_default_data",
+  "type": "scope"
+}

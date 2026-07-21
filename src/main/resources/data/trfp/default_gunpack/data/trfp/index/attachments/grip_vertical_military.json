@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.grip_vertical_military.name",
+  "display": "trfp:grip_vertical_military_display",
+  "data": "trfp:grip_vertical_military_data",
+  "type": "grip",
+  "sort": 10
+}

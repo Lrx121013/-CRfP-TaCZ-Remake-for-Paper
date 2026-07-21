@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "trfp:bullet",
+    "trfp:bullet_ignore_armor",
+    "trfp:bullet_void",
+    "trfp:bullet_void_ignore_armor"
+  ]
+}

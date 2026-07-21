@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/grip_cobra",
+  "model": "trfp:attachment/grip_cobra",
+  "texture": "trfp:attachment/uv/grip_cobra",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_b",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

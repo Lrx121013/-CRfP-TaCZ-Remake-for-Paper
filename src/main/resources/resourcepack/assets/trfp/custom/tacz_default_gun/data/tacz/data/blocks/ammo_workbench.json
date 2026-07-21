@@ -1,0 +1,75 @@
+{
+  // 配方过滤器，具体内容位于 data/<命名空间>/recipe_filters 下
+  // 如果没有指定，将使用默认过滤器 trfp:default
+  "filter": "trfp:default",
+    // gui内包含的tab
+  "tabs": [
+    {
+      "id": "trfp:ammo",
+      "name": "tacz.type.ammo.name",
+      "icon": {
+        "item": "trfp:ammo",
+        "nbt": {
+          "AmmoId": "trfp:762x39"
+        }
+      }
+    },
+    {
+      "id": "trfp:pd_cartridges",
+      "name": "tacz.type.pd_cartridges.name",
+      "icon": {
+        "item": "trfp:ammo",
+        "nbt": {
+          "AmmoId": "trfp:9mm"
+        }
+      }
+    },
+    {
+      "id": "trfp:ifp_rifle_cartridges",
+      "name": "tacz.type.ifp_rifle_cartridges.name",
+      "icon": {
+        "item": "trfp:ammo",
+        "nbt": {
+          "AmmoId": "trfp:556x45"
+        }
+      }
+    },
+    {
+      "id": "trfp:lc_specialized",
+      "name": "tacz.type.lc_specialized.name",
+      "icon": {
+        "item": "trfp:ammo",
+        "nbt": {
+          "AmmoId": "trfp:50bmg"
+        }
+      }
+    },
+    {
+      "id": "trfp:explosives",
+      "name": "tacz.type.explosives.name",
+      "icon": {
+        "item": "trfp:ammo",
+        "nbt": {
+          "AmmoId": "trfp:rpg_rocket"
+        }
+      }
+    },
+    {
+      "id": "trfp:shotgun_shells",
+      "name": "tacz.type.shotgun_shells.name",
+      "icon": {
+        "item": "trfp:ammo",
+        "nbt": {
+          "AmmoId": "trfp:12g"
+        }
+      }
+    },
+    {
+      "id": "trfp:alternative_proj",
+      "name": "tacz.type.alternative_proj.name",
+      "icon": {
+        "item": "minecraft:arrow"
+      }
+    }
+  ]
+}

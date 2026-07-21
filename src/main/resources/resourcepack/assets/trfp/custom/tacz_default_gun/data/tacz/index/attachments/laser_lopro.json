@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.laser_lopro",
+  "display": "trfp:laser_lopro_display",
+  "data": "trfp:laser_lopro_data",
+  "type": "laser",
+  "sort": 10
+}

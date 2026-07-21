@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 14
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trfp:db_long"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

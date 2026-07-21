@@ -1,0 +1,10 @@
+{
+  "model": "trfp:ammo/556x45",
+  "texture": "trfp:ammo/uv/556x45",
+  "slot": "trfp:ammo/slot/556x45",
+  "shell": {
+    "model": "trfp:shell/556x45_shell",
+    "texture": "trfp:shell/556x45_shell"
+  },
+  "tracer_color": "#FF8888"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tacz.gun.m320.name",
+  "display": "trfp:m320_display",
+  "data": "trfp:m320_data",
+  "tooltip": "tacz.gun.m320.desc",
+  "type": "rpg"
+}

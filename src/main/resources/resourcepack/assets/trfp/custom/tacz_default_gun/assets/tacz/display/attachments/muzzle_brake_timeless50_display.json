@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/muzzle_brake_timeless50_slot",
+  "model": "trfp:attachment/muzzle_brake_timeless50_geo",
+  "texture": "trfp:attachment/uv/muzzle_brake_timeless50",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

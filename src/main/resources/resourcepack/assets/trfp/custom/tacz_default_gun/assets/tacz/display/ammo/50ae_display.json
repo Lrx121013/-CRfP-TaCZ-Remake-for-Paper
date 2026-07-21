@@ -1,0 +1,33 @@
+{
+  "model": "trfp:ammo/50ae",
+  "texture": "trfp:ammo/uv/50ae",
+  "slot": "trfp:ammo/slot/50ae",
+  "shell": {
+    "model": "trfp:shell/50ae_shell",
+    "texture": "trfp:shell/50ae_shell"
+  },
+  "tracer_color": "#FF9999",
+  "transform": {
+    "scale": {
+      // 第三人称手部
+      "thirdperson": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      // 地面实体
+      "ground": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      // 展示框
+      "fixed": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  }
+}
+    

@@ -1,0 +1,8 @@
+{
+  "name": "tacz.gun.p90.name",
+  "display": "trfp:p90_display",
+  "data": "trfp:p90_data",
+  "tooltip": "tacz.gun.p90.desc",
+  "type": "smg",
+  "sort": 5
+}

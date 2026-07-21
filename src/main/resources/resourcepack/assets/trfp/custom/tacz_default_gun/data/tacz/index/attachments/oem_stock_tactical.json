@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.oem_stock_tactical.name",
+  "display": "trfp:oem_stock_tactical_display",
+  "data": "trfp:oem_stock_tactical_data",
+  "type": "stock",
+  "sort": 1
+}

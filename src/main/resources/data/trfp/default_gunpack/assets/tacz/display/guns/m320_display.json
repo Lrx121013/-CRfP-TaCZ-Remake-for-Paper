@@ -1,0 +1,43 @@
+{
+  "model": "trfp:gun/m320_geo",
+  "texture": "trfp:gun/uv/m320",
+  "hud": "trfp:gun/hud/m320",
+  "slot": "trfp:gun/slot/m320",
+  "animation": "trfp:m320",
+  "use_default_animation": "rifle",
+  "player_animator_3rd": "trfp:rifle_default.player_animation",
+  "lod": {
+    "model": "trfp:gun/lod/m320",
+    "texture": "trfp:gun/lod/m320"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "sounds": {
+    "reload_empty": "trfp:m320/m320_reload_empty",
+    "inspect": "trfp:m320/m320_inspect",
+    "inspect_empty": "trfp:m320/m320_inspect",
+    "draw": "trfp:m320/m320_draw",
+    "put_away":"trfp:m320/m320_put_away",
+    "shoot": "trfp:m320/m320_shoot",
+    "shoot_3p": "trfp:m320/m320_shoot",
+    "melee_push": "trfp:melee_stock/melee_stock_02",
+    "melee_stock": "trfp:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

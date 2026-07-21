@@ -1,0 +1,10 @@
+{
+  "model": "trfp:ammo/762x25",
+  "texture": "trfp:ammo/uv/762x25",
+  "slot": "trfp:ammo/slot/762x25",
+  "shell": {
+    "model": "trfp:shell/762x25_shell",
+    "texture": "trfp:shell/762x25_shell"
+  }
+}
+    

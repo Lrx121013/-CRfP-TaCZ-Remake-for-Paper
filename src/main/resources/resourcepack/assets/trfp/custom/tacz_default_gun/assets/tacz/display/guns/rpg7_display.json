@@ -1,0 +1,42 @@
+{
+  "model": "trfp:gun/rpg7_geo",
+  "texture": "trfp:gun/uv/rpg7",
+  "hud": "trfp:gun/hud/rpg7",
+  "slot": "trfp:gun/slot/rpg7",
+  "animation": "trfp:rpg7",
+  "use_default_animation": "rifle",
+  "lod": {
+    "model": "trfp:gun/lod/rpg7",
+    "texture": "trfp:gun/lod/rpg7"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [1, 1, 1],
+      "fixed": [1.5, 1.5, 1.5]
+    }
+  },
+  "sounds": {
+    "reload_empty": "trfp:rpg7/rpg7_reload",
+    "inspect": "trfp:rpg7/rpg7_inspect",
+    "inspect_empty": "trfp:rpg7/rpg7_inspect_empty",
+    "draw": "trfp:rpg7/rpg7_draw",
+    "put_away": "trfp:rpg7/rpg7_put_away",
+    "shoot": "trfp:rpg7/rpg7_shoot",
+    "shoot_3p": "trfp:rpg7/rpg7_shoot",
+    "melee_push": "trfp:melee_stock/melee_stock_02",
+    "melee_stock": "trfp:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 4],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

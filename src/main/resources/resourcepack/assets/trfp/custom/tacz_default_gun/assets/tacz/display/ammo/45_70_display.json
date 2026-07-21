@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:ammo/slot/45_70",
+  "shell": {
+    "model": "trfp:shell/50ae_shell",
+    "texture": "trfp:shell/50ae_shell"
+  },
+  "tracer_color": "#FF9999"
+}
+    

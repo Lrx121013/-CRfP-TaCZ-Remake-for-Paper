@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "trfp:target_minecart"
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "trfp:target"
+    },
+    "B": {
+      "item": "minecraft:minecart"
+    }
+  }
+}

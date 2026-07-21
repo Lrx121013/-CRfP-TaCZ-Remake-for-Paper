@@ -1,0 +1,67 @@
+{
+  // 配方过滤器，具体内容位于 data/<命名空间>/recipe_filters 下
+  // 如果没有指定，将使用默认过滤器 trfp:default
+  "filter": "trfp:default",
+  "tabs": [
+    {
+      "id": "trfp:scope",
+      "name": "tacz.type.scope.name",
+      "icon": {
+        "item": "trfp:attachment",
+        "nbt": {
+          "AttachmentId": "trfp:scope_acog_ta31"
+        }
+      }
+    },
+    {
+      "id": "trfp:muzzle",
+      "name": "tacz.type.muzzle.name",
+      "icon": {
+        "item": "trfp:attachment",
+        "nbt": {
+          "AttachmentId": "trfp:muzzle_compensator_trident"
+        }
+      }
+    },
+    {
+      "id": "trfp:stock",
+      "name": "tacz.type.stock.name",
+      "icon": {
+        "item": "trfp:attachment",
+        "nbt": {
+          "AttachmentId": "trfp:stock_militech_b5"
+        }
+      }
+    },
+    {
+      "id": "trfp:grip",
+      "name": "tacz.type.grip.name",
+      "icon": {
+        "item": "trfp:attachment",
+        "nbt": {
+          "AttachmentId": "trfp:grip_magpul_afg_2"
+        }
+      }
+    },
+    {
+      "id": "trfp:extended_mag",
+      "name": "tacz.type.extended_mag.name",
+      "icon": {
+        "item": "trfp:attachment",
+        "nbt": {
+          "AttachmentId": "trfp:extended_mag_3"
+        }
+      }
+    },
+    {
+      "id": "trfp:laser",
+      "name": "tacz.type.laser.name",
+      "icon": {
+        "item": "trfp:attachment",
+        "nbt": {
+          "AttachmentId": "trfp:laser_compact"
+        }
+      }
+    }
+  ]
+}

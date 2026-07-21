@@ -1,0 +1,29 @@
+{
+  "model": "trfp:ammo/12g",
+  "texture": "trfp:ammo/uv/12g",
+  "slot": "trfp:ammo/slot/12g",
+  "shell": {
+    "model": "trfp:shell/12g_shell",
+    "texture": "trfp:shell/12g_shell"
+  },
+  "tracer_color": "#FF3030",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

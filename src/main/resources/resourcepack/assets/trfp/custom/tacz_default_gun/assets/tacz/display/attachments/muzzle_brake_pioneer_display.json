@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/muzzle_brake_pioneer",
+  "model": "trfp:attachment/muzzle_brake_pioneer_geo",
+  "texture": "trfp:attachment/uv/muzzle_brake_pioneer",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

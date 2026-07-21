@@ -1,0 +1,19 @@
+{
+  "slot": "trfp:attachment/slot/sight_deltapoint_pistol",
+  "model": "trfp:attachment/sight_deltapoint_pistol_geo",
+  "texture": "trfp:attachment/uv/sight_deltapoint_pistol",
+  "lod": {
+    "model": "trfp:attachment/lod/sight_deltapoint_pistol",
+    "texture": "trfp:attachment/lod/sight_deltapoint_pistol"
+  },
+  "zoom": [
+    1.5
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 40.0,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_c",
+    "uninstall": "trfp:attachments/scope_general_c"
+  }
+}

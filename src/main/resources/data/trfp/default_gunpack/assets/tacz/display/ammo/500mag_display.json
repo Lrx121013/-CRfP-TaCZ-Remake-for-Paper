@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:ammo/slot/500mag",
+  "shell": {
+    "model": "trfp:shell/500mag_shell",
+    "texture": "trfp:shell/500mag_shell"
+  },
+  "tracer_color": "#FF9999"
+}
+    

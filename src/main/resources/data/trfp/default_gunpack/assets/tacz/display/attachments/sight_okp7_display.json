@@ -1,0 +1,19 @@
+{
+  "slot": "trfp:attachment/slot/sight_okp7",
+  "model": "trfp:attachment/sight_okp7_geo",
+  "texture": "trfp:attachment/uv/sight_okp7",
+  "lod": {
+    "model": "trfp:attachment/lod/sight_okp7",
+    "texture": "trfp:attachment/lod/sight_okp7"
+  },
+  "zoom": [
+    1.5
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 45.0,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_c",
+    "uninstall": "trfp:attachments/scope_general_c"
+  }
+}

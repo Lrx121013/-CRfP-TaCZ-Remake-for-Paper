@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 200
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trfp:ai_awp",
+    "attachments": {
+      "scope": "trfp:scope_contender"
+    }
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

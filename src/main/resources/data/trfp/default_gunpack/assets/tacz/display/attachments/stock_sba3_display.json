@@ -1,0 +1,10 @@
+{
+  "slot": "trfp:attachment/slot/stock_sba3",
+  "model": "trfp:attachment/stock_sba3_geo",
+  "texture": "trfp:attachment/uv/stock_sba3",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slot": "trfp:attachment/slot/scope_hamr_slot",
+  "model": "trfp:attachment/scope_hamr_geo",
+  "texture": "trfp:attachment/uv/scope_hamr",
+  "lod": {
+    "model": "trfp:attachment/lod/scope_hamr",
+    "texture": "trfp:attachment/lod/scope_hamr"
+  },
+  "zoom": [
+    3.25,
+    1.25
+  ],
+  "views": [
+    2,
+    1
+  ],
+  "views_fov": [
+    50.0,
+    60.0
+  ],
+  "scope": true,
+  "sight": true,
+  "sounds": {
+    "install": "trfp:attachments/scope_general_c",
+    "uninstall": "trfp:attachments/scope_general_c"
+  }
+}

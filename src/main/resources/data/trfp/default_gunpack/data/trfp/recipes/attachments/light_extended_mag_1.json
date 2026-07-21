@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trfp:light_extended_mag_1"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

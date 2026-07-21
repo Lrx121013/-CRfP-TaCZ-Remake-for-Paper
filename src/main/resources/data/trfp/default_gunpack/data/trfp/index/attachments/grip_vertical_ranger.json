@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.grip_vertical_ranger.name",
+  "display": "trfp:grip_vertical_ranger_display",
+  "data": "trfp:grip_vertical_ranger_data",
+  "type": "grip",
+  "sort": 10
+}

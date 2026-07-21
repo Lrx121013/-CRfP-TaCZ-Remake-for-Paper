@@ -1,0 +1,30 @@
+{
+  "model": "trfp:ammo/308",
+  "texture": "trfp:ammo/uv/308",
+  "slot": "trfp:ammo/slot/308",
+  "tracer_color": "#FF9999",
+  "shell": {
+    "model": "trfp:shell/308_shell",
+    "texture": "trfp:shell/308_shell"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "ground": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "fixed": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}
+    

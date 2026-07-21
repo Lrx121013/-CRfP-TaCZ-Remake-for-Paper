@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trfp:glock_17"
+  },
+  "type": "trfp:gun_smith_table_crafting"
+}

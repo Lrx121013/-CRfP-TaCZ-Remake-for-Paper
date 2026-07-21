@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/grip_rk6",
+  "model": "trfp:attachment/grip_rk6",
+  "texture": "trfp:attachment/uv/grip_rk6",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_b",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slot": "trfp:attachment/slot/deagle_golden_long_barrel",
+  "model": "trfp:attachment/deagle_golden_long_barrel_geo",
+  "texture": "trfp:attachment/uv/deagle_golden",
+  "sounds": {
+    "install": "trfp:attachments/attachment_general_a",
+    "uninstall": "trfp:attachments/attachment_general_uninstall"
+  }
+}

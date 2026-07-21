@@ -1,0 +1,6 @@
+{
+  "name": "tacz.attachment.muzzle_choke_sg.name",
+  "display": "trfp:muzzle_choke_sg_display",
+  "data": "trfp:muzzle_choke_sg_data",
+  "type": "muzzle"
+}

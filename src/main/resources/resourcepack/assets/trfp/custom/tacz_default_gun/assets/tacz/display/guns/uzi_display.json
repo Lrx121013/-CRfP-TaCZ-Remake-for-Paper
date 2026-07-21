@@ -1,0 +1,57 @@
+{
+  "model": "trfp:gun/uzi_geo",
+  "texture": "trfp:gun/uv/uzi",
+  "hud": "trfp:gun/hud/uzi",
+  "lod": {
+    "model": "trfp:gun/lod/uzi",
+    "texture": "trfp:gun/lod/uzi"
+  },
+  "slot": "trfp:gun/slot/uzi",
+  "animation": "trfp:uzi",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "trfp:flash/common_muzzle_flash",
+    "scale": 0.6
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "trfp:uzi/uzi_shoot",
+    "shoot_3p": "trfp:uzi/uzi_shoot_3p",
+    "reload_empty": "trfp:uzi/uzi_reload_empty",
+    "reload_tactical": "trfp:uzi/uzi_reload_tactical",
+    "inspect": "trfp:uzi/uzi_inspect",
+    "inspect_empty": "trfp:uzi/uzi_inspect_empty",
+    "draw": "trfp:uzi/uzi_draw",
+    "put_away": "trfp:uzi/uzi_put_away",
+    "silence": "trfp:uzi/uzi_silence",
+    "silence_3p": "trfp:uzi/uzi_silence_3p",
+    "melee_push": "trfp:melee_stock/melee_stock_03",
+    "melee_stock": "trfp:melee_stock/melee_stock_01"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

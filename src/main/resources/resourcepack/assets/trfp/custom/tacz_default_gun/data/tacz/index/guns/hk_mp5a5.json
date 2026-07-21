@@ -1,0 +1,8 @@
+{
+  "name": "tacz.gun.hk_mp5a5.name",
+  "display": "trfp:hk_mp5a5_display",
+  "data": "trfp:hk_mp5a5_data",
+  "tooltip": "tacz.gun.hk_mp5a5.desc",
+  "type": "smg",
+  "sort": 1
+}

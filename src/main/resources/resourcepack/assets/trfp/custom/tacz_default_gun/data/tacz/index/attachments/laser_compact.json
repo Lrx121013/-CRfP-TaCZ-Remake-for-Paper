@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.laser_compact",
+  "display": "trfp:laser_compact_display",
+  "data": "trfp:laser_compact_data",
+  "type": "laser",
+  "sort": 10
+}

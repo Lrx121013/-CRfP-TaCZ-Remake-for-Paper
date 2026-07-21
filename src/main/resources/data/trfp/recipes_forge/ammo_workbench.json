@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "trfp:workbench_a",
+    "nbt": {
+      "BlockId": "trfp:ammo_workbench"
+    }
+  },
+  "pattern": [
+    "CC",
+    "IB"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "trfp:ammo_box"
+    }
+  }
+}

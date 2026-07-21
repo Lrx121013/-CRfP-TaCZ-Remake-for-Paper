@@ -1,0 +1,8 @@
+{
+  "name": "tacz.gun.aa12.name",
+  "display": "trfp:aa12_display",
+  "data": "trfp:aa12_data",
+  "tooltip": "tacz.gun.aa12.desc",
+  "type": "shotgun",
+  "sort": 2
+}

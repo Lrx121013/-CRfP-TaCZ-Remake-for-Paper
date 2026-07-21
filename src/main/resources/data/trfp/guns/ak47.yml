@@ -1,0 +1,28 @@
+id: ak47
+displayName: AK-47
+defaultFireMode: AUTO
+damage: 7.0
+damageNear: 9.0
+damageFar: 5.0
+headshotMultiplier: 1.5
+magazineSize: 30
+ammoId: 7_62mm
+reloadTimeTicks: 50.0
+fireRate: 600
+bulletsPerShot: 1
+spread: 1.2
+recoilUp: 2.0
+recoilHorizontal: 0.6
+recoilDurationTicks: 12.0
+aimFovMultiplier: 0.65
+attachmentSlots: [SCOPE, GRIP, STOCK, MUZZLE]
+hasBolt: false
+hasMelee: true
+hasBayonet: true
+meleeDamage: 4
+bayonetDamage: 8
+shootSound: trfp:ak47_shoot
+reloadSound: trfp:ak47_reload
+luaScript: gun/ak47.lua
+level: 1
+tags: [rifle, assault, 7_62mm]

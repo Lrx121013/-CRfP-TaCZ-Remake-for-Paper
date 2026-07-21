@@ -1,0 +1,6 @@
+id: 45acp
+displayName: .45 ACP 子弹
+maxStackSize: 64
+caliber: .45 ACP
+damageBonus: 1.15
+tags: [pistol]

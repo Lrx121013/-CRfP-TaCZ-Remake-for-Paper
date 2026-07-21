@@ -1,0 +1,12 @@
+id: scope_holographic
+displayName: 全息瞄具
+slotType: SCOPE
+damageModifier: 1.0
+headshotModifier: 1.0
+zoomModifier: 1.4
+recoilModifier: 1.0
+spreadModifier: 1.0
+aimFovModifier: 0.85
+reloadTimeModifier: 1.0
+additionalMagazineSize: 0
+tags: [scope, holographic]

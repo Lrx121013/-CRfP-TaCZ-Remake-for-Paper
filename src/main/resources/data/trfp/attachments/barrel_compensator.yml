@@ -1,0 +1,6 @@
+id: barrel_compensator
+displayName: 制退器
+slotType: MUZZLE
+recoilModifier: 0.7
+spreadModifier: 1.05
+tags: [muzzle, compensator]

@@ -1,0 +1,6 @@
+id: 5_56mm
+displayName: 5.56mm 子弹
+maxStackSize: 64
+caliber: 5.56mm
+damageBonus: 1.0
+tags: [rifle, assault]

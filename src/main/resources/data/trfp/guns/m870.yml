@@ -1,0 +1,24 @@
+id: m870
+displayName: M870
+defaultFireMode: SEMI
+damage: 9.0
+damageNear: 12.0
+damageFar: 7.0
+headshotMultiplier: 1.5
+magazineSize: 8
+ammoId: 12g
+reloadTimeTicks: 60.0
+fireRate: 75
+bulletsPerShot: 8
+spread: 3.0
+recoilUp: 4.0
+recoilHorizontal: 0.3
+recoilDurationTicks: 15.0
+aimFovMultiplier: 0.7
+attachmentSlots: [MUZZLE]
+hasMelee: true
+meleeDamage: 4
+shootSound: trfp:m870_shoot
+luaScript: gun/m870.lua
+level: 1
+tags: [shotgun, 12g]

@@ -1,0 +1,11 @@
+id: scope_sniper
+displayName: 狙击镜
+slotType: SCOPE
+damageModifier: 1.05
+headshotModifier: 1.25
+zoomModifier: 3.0
+recoilModifier: 0.9
+spreadModifier: 0.5
+aimFovModifier: 0.3
+reloadTimeModifier: 1.05
+tags: [scope, sniper]

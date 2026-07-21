@@ -1,0 +1,6 @@
+id: grip_vertical
+displayName: 垂直握把
+slotType: GRIP
+recoilModifier: 0.8
+spreadModifier: 0.9
+tags: [grip, vertical]

@@ -1,0 +1,15 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "trfp:item/gun_template"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "trfp:item/gun_ak47" },
+    { "predicate": { "custom_model_data": 2 }, "model": "trfp:item/gun_m4a1" },
+    { "predicate": { "custom_model_data": 3 }, "model": "trfp:item/gun_awp" },
+    { "predicate": { "custom_model_data": 4 }, "model": "trfp:item/gun_mp5" },
+    { "predicate": { "custom_model_data": 5 }, "model": "trfp:item/gun_m870" },
+    { "predicate": { "custom_model_data": 6 }, "model": "trfp:item/gun_pistol_1911" },
+    { "predicate": { "custom_model_data": 7 }, "model": "trfp:item/gun_m2hb" }
+  ]
+}

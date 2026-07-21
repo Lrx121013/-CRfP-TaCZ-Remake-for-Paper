@@ -1,0 +1,24 @@
+id: mp5
+displayName: MP5
+defaultFireMode: AUTO
+damage: 4.0
+damageNear: 5.0
+damageFar: 3.0
+headshotMultiplier: 1.4
+magazineSize: 30
+ammoId: 9mm
+reloadTimeTicks: 35.0
+fireRate: 800
+bulletsPerShot: 1
+spread: 1.0
+recoilUp: 0.8
+recoilHorizontal: 0.4
+recoilDurationTicks: 5.0
+aimFovMultiplier: 0.7
+attachmentSlots: [SCOPE, GRIP, STOCK]
+hasMelee: true
+meleeDamage: 3
+shootSound: trfp:mp5_shoot
+luaScript: gun/mp5.lua
+level: 1
+tags: [smg, 9mm]

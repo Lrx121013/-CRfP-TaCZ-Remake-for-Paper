@@ -1,0 +1,6 @@
+id: 50bmg
+displayName: .50 BMG 子弹
+maxStackSize: 32
+caliber: .50 BMG
+damageBonus: 1.5
+tags: [sniper, hmg]

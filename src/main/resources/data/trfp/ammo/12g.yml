@@ -1,0 +1,6 @@
+id: 12g
+displayName: 12 号霰弹
+maxStackSize: 16
+caliber: 12g
+damageBonus: 1.2
+tags: [shotgun]

@@ -1,0 +1,6 @@
+id: 9mm
+displayName: 9mm 子弹
+maxStackSize: 64
+caliber: 9mm
+damageBonus: 1.0
+tags: [pistol, smg]

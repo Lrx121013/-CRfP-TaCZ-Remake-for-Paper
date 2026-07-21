@@ -1,0 +1,7 @@
+id: stock_tactical
+displayName: 战术枪托
+slotType: STOCK
+recoilModifier: 0.85
+spreadModifier: 0.95
+aimFovModifier: 0.9
+tags: [stock, tactical]

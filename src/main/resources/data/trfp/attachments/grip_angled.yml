@@ -1,0 +1,7 @@
+id: grip_angled
+displayName: 斜握把
+slotType: GRIP
+recoilModifier: 0.85
+spreadModifier: 0.85
+aimFovModifier: 0.95
+tags: [grip, angled]

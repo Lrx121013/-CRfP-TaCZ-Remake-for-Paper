@@ -1,0 +1,6 @@
+id: 308
+displayName: .308 子弹
+maxStackSize: 32
+caliber: .308
+damageBonus: 1.3
+tags: [sniper]

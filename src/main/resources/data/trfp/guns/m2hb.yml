@@ -1,0 +1,24 @@
+id: m2hb
+displayName: M2HB
+defaultFireMode: SEMI
+damage: 18.0
+damageNear: 22.0
+damageFar: 14.0
+headshotMultiplier: 1.7
+magazineSize: 100
+ammoId: 50bmg
+reloadTimeTicks: 120.0
+fireRate: 450
+bulletsPerShot: 1
+spread: 0.5
+recoilUp: 3.5
+recoilHorizontal: 0.6
+recoilDurationTicks: 10.0
+aimFovMultiplier: 0.55
+attachmentSlots: [SCOPE, GRIP, BARREL]
+hasMelee: true
+meleeDamage: 5
+shootSound: trfp:m2hb_shoot
+luaScript: gun/m2hb.lua
+level: 3
+tags: [hmg, 50bmg]

@@ -1,0 +1,11 @@
+id: scope_acog
+displayName: ACOG 瞄具
+slotType: SCOPE
+damageModifier: 1.0
+headshotModifier: 1.1
+zoomModifier: 1.8
+recoilModifier: 1.0
+spreadModifier: 0.9
+aimFovModifier: 0.6
+reloadTimeModifier: 1.0
+tags: [scope, acog]

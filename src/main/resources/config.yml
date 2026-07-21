@@ -1,0 +1,26 @@
+# [TaCZ] REMAKE For Paper (TRfP)
+# 插件主配置 —— 作者: Lrxmcstudio.工作室的Lrx
+
+debug: false
+
+# 资源包（必须将 resourcepack/ 目录上传到 CDN 后填入）
+resource-pack-url: "https://your-cdn.example.com/TRfP-resourcepack.zip"
+resource-pack-sha1: ""
+
+# Lua 引擎开关（false 时所有 on_shoot / on_hit / on_reload / on_attach 钩子失效）
+enable-lua: true
+
+# 玩家距离方块多远以内可以自动交换主手/副手
+max-attach-distance: 32
+
+# 全局伤害倍率
+damage-multiplier: 1.0
+
+# 全局爆头倍率
+headshot-multiplier: 1.5
+
+# 默认射击模式：SEMI / AUTO / BURST
+default-fire-mode: SEMI
+
+# 默认语言：zh_cn / en_us
+lang: zh_cn

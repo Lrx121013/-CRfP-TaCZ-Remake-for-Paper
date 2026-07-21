@@ -1,0 +1,7 @@
+id: barrel_suppressor
+displayName: 消音器
+slotType: MUZZLE
+damageModifier: 0.95
+recoilModifier: 0.95
+spreadModifier: 1.0
+tags: [muzzle, suppressor, silent]

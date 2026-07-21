@@ -1,0 +1,25 @@
+id: awp
+displayName: AWP
+defaultFireMode: SEMI
+damage: 32.0
+damageNear: 40.0
+damageFar: 25.0
+headshotMultiplier: 2.0
+magazineSize: 5
+ammoId: 308
+reloadTimeTicks: 75.0
+fireRate: 40
+bulletsPerShot: 1
+spread: 0.1
+recoilUp: 6.0
+recoilHorizontal: 0.1
+recoilDurationTicks: 20.0
+aimFovMultiplier: 0.35
+attachmentSlots: [SCOPE, MUZZLE]
+hasBolt: true
+hasMelee: true
+meleeDamage: 4
+shootSound: trfp:awp_shoot
+luaScript: gun/awp.lua
+level: 2
+tags: [sniper, bolt, 308]

@@ -1,0 +1,6 @@
+id: 7_62mm
+displayName: 7.62mm 子弹
+maxStackSize: 64
+caliber: 7.62mm
+damageBonus: 1.1
+tags: [rifle, assault]

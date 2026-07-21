@@ -10,7 +10,30 @@
     <packaging>jar</packaging>
 
     <name>[TaCZ]REMAKEForPaper</name>
-    <description>TRfP (Lrxmcstudio.工作室的Lrx 出品) —— Paper 1.21.1 平台上的 TACZ 复刻插件，保留原版全部枪械与玩法。</description>
+    <description>TRfP (Lrxmcstudio.工作室的Lrx 出品) —— Paper 1.21.1 平台上的 TACZ 复刻插件，保留原版全部内容与玩法。</description>
+    <url>https://github.com/Lrxmcstudio/TRfP</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>lrx</id>
+            <name>Lrxmcstudio.工作室的Lrx</name>
+            <email>lrx@lrxmcstudio.studio</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/Lrxmcstudio/TRfP.git</connection>
+        <developerConnection>scm:git:https://github.com/Lrxmcstudio/TRfP.git</developerConnection>
+        <url>https://github.com/Lrxmcstudio/TRfP</url>
+    </scm>
 
     <properties>
         <java.version>21</java.version>

@@ -8,7 +8,7 @@
 - **作者**：`Lrxmcstudio.工作室的Lrx`
 - **原项目**：[TACZ (MCModderAnchor)](https://github.com/MCModderAnchor/TACZ) — Timeless and Classics Guns Zero
 - **目标平台**：Paper 1.21.1+（兼容 Spigot 1.21.1；Folia 可用）
-- **开源协议**：代码 GPL-3.0；资源 CC BY-NC-ND 4.0（沿用原 TACZ 协议）
+- **开源协议**：代码 Apache License 2.0；资源 CC BY-NC-ND 4.0（沿用原 TACZ 协议）
 
 ## 致谢（必须保留）
 
@@ -58,8 +58,8 @@ plugins/TRfP/
 
 ## 协议
 
-- 代码：[GNU GPL 3.0](LICENSE)
+- 代码：[Apache License 2.0](LICENSE)
 - 资源：[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 **禁止商用**、**禁止衍生**美术资源。  
-代码允许在保留 GPL-3.0 的前提下进行二次开发与分发。
+代码允许在保留 Apache 2.0 协议头的前提下进行二次开发与分发。

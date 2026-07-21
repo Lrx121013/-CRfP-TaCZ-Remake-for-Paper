@@ -1,0 +1,34 @@
+name: '[TaCZ]REMAKEForPaper'
+version: '${project.version}'
+main: studio.lrxmc.trfp.TRfPPlugin
+api-version: '1.21'
+author: '[Lrxmcstudio.工作室的Lrx]'
+description: 'TRfP (Lrxmcstudio.工作室的Lrx 出品) — Paper 1.21.1 平台上的 TACZ 复刻插件，保留原版全部枪械与玩法。'
+website: 'https://github.com/lrxmcstudio'
+load: POSTWORLD
+folia-supported: true
+libraries: []
+commands:
+  trfp:
+    description: '[TaCZ] REMAKE For Paper 主命令'
+    aliases: [tacz, trfp]
+    usage: |
+      §6/trfp §7<子命令> [参数]
+      §7子命令：§fversion §7| §freload §7| §fgive §7| §fgiveammo §7| §fattach
+    permission: trfp.use
+permissions:
+  trfp.use:
+    description: '允许使用 TRfP 基础功能'
+    default: true
+  trfp.admin:
+    description: '允许使用 TRfP 管理命令（reload、调试）'
+    default: op
+  trfp.command.give:
+    description: '允许使用 /trfp give 子命令'
+    default: op
+  trfp.command.giveammo:
+    description: '允许使用 /trfp giveammo 子命令'
+    default: op
+  trfp.command.attach:
+    description: '允许使用 /trfp attach 子命令'
+    default: op
